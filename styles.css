@@ -15,3 +15,20 @@ header a {
   color: white;
   text-decoration: none;
 }
+
+main > h1 {
+  background-color: #80FFD0;
+}
+
+main > h1 > b {
+  border-bottom: 4px solid #FFD700;
+}
+
+li > footer {
+  background-color: #FFFF00;
+}
+
+body > footer {
+  color: white;
+  background-color: black;
+}
