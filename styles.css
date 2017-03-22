@@ -2,12 +2,22 @@ ul {
   list-style-type: none;
 }
 
-header > h1 {
+header {
   background-color: #333333;
+  align-content: center;
+}
+
+header > h1 {
   color: white;
+  width: 300px;
+}
+
+header > nav {
+  background-color: white;
 }
 
 header li {
+  display: inline-block;
   background-color: #D3D3D3;
 }
 
@@ -21,11 +31,11 @@ main > h1 {
 }
 
 main > h1 > b {
-  border-bottom: 4px solid #FFD700;
+  border-bottom: 4px solid yellow;
 }
 
 li > footer {
-  background-color: #FFFF00;
+  background-color: yellow;
 }
 
 body > footer {
