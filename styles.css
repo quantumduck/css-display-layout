@@ -82,4 +82,7 @@ body > footer {
   color: white;
   background-color: black;
   text-align: center;
+  font-weight: bold;
+  padding: 18px;
+  font-size: 15px;
 }
