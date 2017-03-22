@@ -59,7 +59,7 @@ main > h1 {
 
 main > h1 > b {
   font-weight: bold;
-  border-bottom: 4px solid yellow;
+  border-bottom: 4px solid #FFD700;
 }
 
 main > ul {
@@ -69,10 +69,11 @@ main > ul {
 main li {
   display: inline-block;
   font-size: 16px;
+  margin: 8px auto;
 }
 
 li > footer {
-  background-color: yellow;
+  background-color: #FFD700;
   text-align: center;
   padding: 8px;
 }
