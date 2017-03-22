@@ -68,11 +68,13 @@ main > ul {
 
 main li {
   display: inline-block;
+  font-size: 16px;
 }
 
 li > footer {
   background-color: yellow;
   text-align: center;
+  padding: 8px;
 }
 
 body > footer {
