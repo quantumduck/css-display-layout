@@ -8,27 +8,29 @@ ul {
 }
 
 header {
-  background-color: #333333;
   align-content: center;
 }
 
 header > h1 {
+  background-color: #333333;
   text-align: center;
   color: white;
-}
-
-header > nav {
-  background-color: white;
+  font-size: 32px;
+  padding: 16px;
+  margin: 0px;
 }
 
 header > nav > ul {
   margin: auto;
-  width: 200px;
+  width: 50%;
 }
 
 header li {
   display: inline-block;
   background-color: #D3D3D3;
+  font-size: 20px;
+  padding: 10px;
+  margin: 2px; 1px;
 }
 
 header a {
