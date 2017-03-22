@@ -4,6 +4,7 @@ h1, li, a {
 
 ul {
   list-style-type: none;
+  margin: auto;
 }
 
 header {
@@ -14,10 +15,16 @@ header {
 header > h1 {
   color: white;
   width: 300px;
+  margin: auto;
 }
 
 header > nav {
   background-color: white;
+}
+
+header > nav > ul {
+  margin: auto;
+  width: 200px;
 }
 
 header li {
@@ -39,6 +46,10 @@ main > h1 {
 main > h1 > b {
   font-weight: bold;
   border-bottom: 4px solid yellow;
+}
+
+main li {
+  display: inline-block;
 }
 
 li > footer {
