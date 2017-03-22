@@ -1,4 +1,4 @@
-h1, li, a {
+* {
   font-family: sans-serif;
 }
 
@@ -13,9 +13,8 @@ header {
 }
 
 header > h1 {
+  text-align: center;
   color: white;
-  width: 300px;
-  margin: auto;
 }
 
 header > nav {
@@ -54,9 +53,11 @@ main li {
 
 li > footer {
   background-color: yellow;
+  text-align: center;
 }
 
 body > footer {
   color: white;
   background-color: black;
+  text-align: center;
 }
